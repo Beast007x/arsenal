@@ -69,7 +69,7 @@ TextButton.MouseButton1Down:Connect(function()
 end)
 end)
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/Test.lua"))();
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/arsenal/main/3.lua"))();
 
 local Window = Library.CreateLib("Arsenal PWNERS V2", "Ocean")
 
@@ -404,6 +404,6 @@ Section5:NewKeybind("Toggle ui", "Toogle the ui lol", Enum.KeyCode.F6, function(
     Library:ToggleUI()
 end)
 
-Section5:NewButton("Copy discord invite link", "Copies the discord invite link to clipboard (JOIN!!!!)", function()
-    setclipboard("https://discord.gg/rQEHvHFGNf")
+Section5:NewButton("Copy discord user id", "Copied User Id In Clipboard!", function()
+    setclipboard("revX#0001")
 end)
