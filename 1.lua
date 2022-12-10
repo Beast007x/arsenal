@@ -57,7 +57,7 @@ HighEnd.TextSize = 40.000
 HighEnd.TextWrapped = true
 HighEnd.MouseButton1Down:Connect(function()
 	Chose:Destroy()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/High%20end%20arsenal.lua"), true))()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Beast007x/arsenal/main/2.lua"), true))()
 end)
 
 
@@ -77,7 +77,7 @@ LowEnd.TextSize = 40.000
 LowEnd.TextWrapped = true
 LowEnd.MouseButton1Down:Connect(function()
 	Chose:Destroy()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/Low%20end%20arsenal.lua"), true))()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Beast007x/arsenal/main/4.lua"), true))()
 end)
 
 UITextSizeConstraint_3.Parent = LowEnd
